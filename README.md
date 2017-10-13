@@ -91,7 +91,7 @@ If there´s also docker-machine on your machine, don´t forget to do the mention
 
 ### Step 1 - Create needed osxfs mountpoints
 
-Create folders (see [Issue 26](https://github.com/marcelbirkner/docker-ci-tool-stack/issues/26))
+Create folders (see [Issue 26](https://github.com/sbeeker/docker-ci-tool-stack/issues/26))
 
 * /opt/jenkins via __sudo mkdir /opt/jenkins__
 * /opt/postgres via __sudo mkdir /opt/postgres__
@@ -110,7 +110,7 @@ Clone Repository
 ```
 # Clone Repository and startup all docker container
 # Option A: clone via https
-git clone https://github.com/marcelbirkner/docker-ci-tool-stack.git
+git clone https://github.com/sbeeker/docker-ci-tool-stack.git
 
 # Option B: if you have your ssh keys configured for your GitHub account
 git clone git@github.com:marcelbirkner/docker-ci-tool-stack.git
@@ -131,7 +131,7 @@ docker-compose up
 ### Automatically
 
 Please run **docker-compose.yml.native-docker-fix.sh** before executing **docker-compose up**.
-This will fix the Docker binary PATH, see [Issue 24](https://github.com/marcelbirkner/docker-ci-tool-stack/issues/24).
+This will fix the Docker binary PATH, see [Issue 24](https://github.com/sbeeker/docker-ci-tool-stack/issues/24).
 This script patches the docker-compose.yml.
 
 ### Manually
@@ -144,7 +144,7 @@ to
 
 - /usr/bin/docker:/usr/bin/docker
 
-This is because '/usr/bin/docker' is the docker binary, see [Issue 24](https://github.com/marcelbirkner/docker-ci-tool-stack/issues/24).
+This is because '/usr/bin/docker' is the docker binary, see [Issue 24](https://github.com/sbeeker/docker-ci-tool-stack/issues/24).
 
 ## Access Tools
 
