@@ -15,7 +15,7 @@ echo "Setup environment"
 eval $(docker-machine env docker-ci-tools)
 
 echo "Checkout Git Repository"
-git clone git@github.com:marcelbirkner/docker-ci-tool-stack.git
+git clone git@github.com:sbeeker/docker-ci-tool-stack.git
 cd docker-ci-tool-stack
 
 echo "Startup Docker Compose"

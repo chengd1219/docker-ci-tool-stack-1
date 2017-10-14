@@ -4,11 +4,25 @@ This GitHub repository contains Dockerfiles for running a set of Continuous Inte
 
 ![Docker CI Tools](screenshots/docker-ci-tools.png)
 
-![Docker CI Tools](screenshots/IRSContainers-IRS-C.png)
+Containers reailize with Docker Native Hypervisor.
 
-![Docker CI Tools](screenshots/IRSContainers-IRS.png)
+![Docker CI Tools](screenshots/IRSContainers-DockerNative.png)
+
+Containers reailize with Docker Native Hypervisor.
+
+![Docker CI Tools](screenshots/IRSContainers-VirtualBox.png)
+
+Jenkins task outlined in Jenkins container.
 
 ![Docker CI Tools](screenshots/IRSContainers-Jenkins.png)
+
+CICD Containers.
+
+![Docker CI Tools](screenshots/IRSContainers-CICD.png)
+
+IRS useage depiction.
+
+![Docker CI Tools](screenshots/IRSContainers-IRS.png)
 
 Blog article on the CI Docker Container, https://blog.codecentric.de/en/2015/10/continuous-integration-platform-using-docker-container-jenkins-sonarqube-nexus-gitlab
 
@@ -36,7 +50,7 @@ Start the machine, using the `--virtualbox-memory` option to increase it’s mem
 I use 6000 MB to accommodate all the docker images.
 
 ```
-# docker-machine create -d virtualbox --virtualbox-memory "6000" default
+# docker-machine create -d virtualbox --virtualbox-memory "6000" docker-ci-tools
 Running pre-create checks...
 Creating machine...
 (default) Creating VirtualBox VM...
@@ -52,7 +66,7 @@ Copying certs to the remote machine...
 Setting Docker configuration on the remote daemon...
 Checking connection to Docker...
 Docker is up and running!
-To see how to connect Docker to this machine, run: docker-machine env default
+To see how to connect Docker to this machine, run: docker-machine env ci-tool-stack
 ```
 
 ### Step 2 - Set Docker Machine Connection
@@ -60,7 +74,7 @@ To see how to connect Docker to this machine, run: docker-machine env default
 Configure shell environment to connect to your new Docker instance
 
 ```
-eval "$(docker-machine env default)"
+eval "$(docker-machine env docker-ci-tools)"
 ```
 
 ### Step 3 - clone Repository
