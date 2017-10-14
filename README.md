@@ -4,6 +4,12 @@ This GitHub repository contains Dockerfiles for running a set of Continuous Inte
 
 ![Docker CI Tools](screenshots/docker-ci-tools.png)
 
+![Docker CI Tools](screenshots/IRSContainers - IRS-C.png)
+
+![Docker CI Tools](screenshots/IRSContainers - IRS.png)
+
+![Docker CI Tools](screenshots/IRSContainers - Jenkins.png)
+
 Blog article on the CI Docker Container, https://blog.codecentric.de/en/2015/10/continuous-integration-platform-using-docker-container-jenkins-sonarqube-nexus-gitlab
 
 ## Prerequisites (Mac)
@@ -113,7 +119,7 @@ Clone Repository
 git clone https://github.com/sbeeker/docker-ci-tool-stack.git
 
 # Option B: if you have your ssh keys configured for your GitHub account
-git clone git@github.com:marcelbirkner/docker-ci-tool-stack.git
+git clone git@github.com:sbeeker/docker-ci-tool-stack.git
 
 cd docker-ci-tool-stack
 ```
