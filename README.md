@@ -4,11 +4,11 @@ This GitHub repository contains Dockerfiles for running a set of Continuous Inte
 
 ![Docker CI Tools](screenshots/docker-ci-tools.png)
 
-![Docker CI Tools](screenshots/IRSContainers - IRS-C.png)
+![Docker CI Tools](screenshots/IRSContainers-IRS-C.png)
 
-![Docker CI Tools](screenshots/IRSContainers - IRS.png)
+![Docker CI Tools](screenshots/IRSContainers-IRS.png)
 
-![Docker CI Tools](screenshots/IRSContainers - Jenkins.png)
+![Docker CI Tools](screenshots/IRSContainers-Jenkins.png)
 
 Blog article on the CI Docker Container, https://blog.codecentric.de/en/2015/10/continuous-integration-platform-using-docker-container-jenkins-sonarqube-nexus-gitlab
 
