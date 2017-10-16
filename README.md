@@ -6,23 +6,23 @@ This GitHub repository contains Dockerfiles for running a set of Continuous Inte
 
 Containers reailize with Docker Native Hypervisor.
 
-![Docker CI Tools](screenshots/IRSContainers-DockerNative.png)
+![Docker CI Tools](screenshots/DockerNative.png)
 
 Containers reailize with Docker Native Hypervisor.
 
-![Docker CI Tools](screenshots/IRSContainers-VirtualBox.png)
+![Docker CI Tools](screenshots/VirtualBox.png)
 
 Jenkins task outlined in Jenkins container.
 
-![Docker CI Tools](screenshots/IRSContainers-Jenkins.png)
+![Docker CI Tools](screenshots/Jenkins.png)
 
 CICD Containers.
 
-![Docker CI Tools](screenshots/IRSContainers-CICD.png)
+![Docker CI Tools](screenshots/CICD.png)
 
-IRS useage depiction.
+Agency useage depiction.
 
-![Docker CI Tools](screenshots/IRSContainers-IRS.png)
+![Docker CI Tools](screenshots/Containers.png)
 
 Blog article on the CI Docker Container, https://blog.codecentric.de/en/2015/10/continuous-integration-platform-using-docker-container-jenkins-sonarqube-nexus-gitlab
 
